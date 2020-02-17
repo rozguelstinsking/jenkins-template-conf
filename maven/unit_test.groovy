@@ -1,3 +1,3 @@
 void call(){
-    println "maven: unit_test()"
+    println "maven: change into library made by rozg"
 }
