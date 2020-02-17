@@ -7,4 +7,7 @@ void call(){
 	print config.message + i
 	}
 }
+void call(String arg){
+    print "gradle: build(): with args: ${arg}"
+}
 
