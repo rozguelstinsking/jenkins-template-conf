@@ -1,3 +1,3 @@
-void call(){
-    print "gradle: build()"
+void call(String myarg){
+    print "gradle: build(): ${myarg}"
 }
