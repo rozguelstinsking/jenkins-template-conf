@@ -1,3 +1,3 @@
-void call(){
-    println "maven: build()"
+void call(String jparam){
+    println "maven: build() ${jparam}"
 }
