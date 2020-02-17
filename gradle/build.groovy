@@ -1,3 +1,4 @@
+#!/groovy
 void call(){
     print "gradle: build() without args"
     print config.message
