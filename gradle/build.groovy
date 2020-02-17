@@ -2,8 +2,8 @@ void call(){
     print "gradle: build() without args"
     print config.message
     print config.version	
-}
-void call(String myarg){
-    print "gradle: build(): ${myarg}"
+    for(def i = 0, i < config.number, i++){
+        println config.message
+    }
 }
 
