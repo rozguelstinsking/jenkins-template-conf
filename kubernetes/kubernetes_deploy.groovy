@@ -6,6 +6,7 @@ void call(){
 
 		stage("deploy"){
 			sh '''puppet agent --test --certname jenkins.pem '''
+			build 'build'
 			}
 		}
 
