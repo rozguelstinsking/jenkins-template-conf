@@ -1,3 +1,3 @@
 void call(){
-	print("groovy: mi verch")
+	print("from gradle: mi verch")
 }
