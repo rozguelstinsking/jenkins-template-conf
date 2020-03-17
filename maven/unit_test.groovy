@@ -3,9 +3,9 @@ void call(){
 
     print "environment: ${env.JOB_NAME}"
 
-    node("master"){
+    //node("master"){
         sh("mvn test")
-    }
+    //}
 
     
     
