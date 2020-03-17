@@ -5,9 +5,9 @@ void call(Object environment){
 
     print "environment actual: ${environment.long_name}"
 
-    //node("master"){
+    node("master"){
         sh("mvn test")
-    //}
+    }
 
     
     
