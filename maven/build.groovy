@@ -1,7 +1,7 @@
 void call(){
     println "maven: build()"
     node("master"){
-        sh("mvn clean package")
+        sh("mvn package")
     }
 }
 void call(String jparam){
